@@ -1,0 +1,183 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: opensans;
+}
+.banner{
+    background-image: url("../images/head.jpg");
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+.banner svg {
+    position: absolute;
+    bottom: 0;
+
+}
+.banner .btn{
+  border: 2px solid rgb(255, 255, 255);
+  margin-right: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.banner .nav-link{
+  color: white;
+}
+.bannerboard {
+    width: 31rem;
+    left: 3.4rem;
+    top: 5.4rem;
+    display: flex;
+    /* flex-direction: row; */
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 2.4rem;
+}
+.banner .rating{
+  margin-top:15px;
+  margin-left:45px
+}
+.bannerboard h5{
+  margin-left: 30px;
+float: right;
+}
+.fa-star{
+color: gold;
+}
+
+#dropdownMenu1{
+    border-radius: 18.25px;
+
+}
+#btn2{
+    margin-left: 20px;
+    border: 2px solid #000000;
+    border-radius: 18.25px;
+}
+.container h5{
+    float: right;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    width: 90%;
+}
+#rating h5{
+  position: relative;
+  right: 25px;
+
+}
+#rating p{
+  position: absolute;
+  left: 25px;
+
+}
+.col.card img{
+  float: right;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+  .card {
+    padding: 0px;
+    text-align: center;
+    margin-right: 25px;
+   
+  }
+  .cardtable{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+  .card-body {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .card-body>div {
+    padding: 5px;
+  }
+   .card-body img {
+    width: 90px;
+    height: 123px;
+    object-fit: cover
+  }
+  #social {
+    margin: 20px 10px;
+    text-align: center;
+  }
+  
+  .smGlobalBtn { /* global button class */
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      border:2px solid #ddd; /* add border to the buttons */
+      box-shadow: 0 3px 3px #999;
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      -moz-border-radius:27px;
+      -webkit-border-radius:27px;
+  }
+  
+  /* facebook button class*/
+  .facebookBtn{
+      background: #4060A5;
+  }
+  
+  .facebookBtn:before{ /* use :before to add the relevant icons */
+      font-family: "FontAwesome";
+      content: "\f09a"; /* add facebook icon */
+  }
+  
+  .facebookBtn:hover{
+      color: #4060A5;
+      background: #fff;
+      border-color: #4060A5; /* change the border color on mouse hover */
+  }
+  
+  /* twitter button class*/
+  .twitterBtn{
+      background: #00ABE3;
+  }
+  
+  .twitterBtn:before{
+        font-family: "FontAwesome";
+        content: "\f099"; /* add twitter icon */
+        
+  }
+  .twitterBtn:hover{
+        color: #00ABE3;
+        background: #fff;
+        border-color: #00ABE3;
+  }
+  .instagramBtn{
+    background: #00ABE3;
+  }
+  .instagramBtn:hover{
+    color: #00ABE3;
+        background: #fff;
+        border-color: #00ABE3;
+
+  }
+  .instagramBtn:before{
+    font-family: "FontAwesome";
+    content: "\f16d"; /* add twitter icon */
+  }
